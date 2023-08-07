@@ -1,5 +1,5 @@
 # Swagger
-OAS (Open API Specification)
+#### OAS (Open API Specification)
 # Employee Details API - README
 This repository contains the Employee Details API, which is a RESTful API for managing employee information. The API allows users to perform CRUD (Create, Read, Update, Delete) operations on employee data.
 
@@ -12,10 +12,15 @@ GET /employees/{id}: Get employee details by ID.<br>
 PUT /employees/{id}: Update an existing employee by ID.<br>
 DELETE /employees/{id}: Delete an employee by ID.<br>
 
+# Data Models
+The API uses the following data models:
+
+Employee: Represents the employee details.<br>
+EmployeeInput: Represents the request body for adding or updating an employee.
+
 API Documentation
 For detailed information on how to use each endpoint and the expected request and response formats, refer to the API documentation. The API documentation is available in OpenAPI (Swagger) format and can be viewed using the Swagger UI.
 
-Access API Documentation: Employee Details API Documentation
 
 
 
